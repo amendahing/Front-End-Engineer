@@ -1,10 +1,11 @@
 body {
     font-family: 'Lato', sans-serif;
+    margin-left: 40px;
+    margin-top: 40px;
 }
 
 div {
-    /* border: black solid 1px; */
-    width: 450px;
+    width: 430px;
 }
 
 #amount-needed{
@@ -16,7 +17,7 @@ div {
     text-align: center;
     padding: 6px;
     box-sizing: border-box;
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 10px;
 }
 
@@ -24,39 +25,84 @@ div {
 #slider{
     height: 35px;
     background: linear-gradient(to right, #e7e9ff , #8787ff);
-    width: 50%;
+    width: 30%;
     border-radius: 5px;
     -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
     transition: width 1s;
 }
 
+#slider p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Lato';
+    padding-top: 10px;
+
+}
+
 #outer{
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #fbfbfb;
     box-sizing: border-box;
     color: grey;
-    font-size: 22px;
     border-radius: 10px;
+    background-color: #fbfbfb;
+    text-align: center;
+}
+
+#info{
+    width: 90%;
+}
+
+#donate-box{
+    width: 90%;
 }
 
 input{
-    height: 35px;
+    height: 45px;
     border-radius: 5px;
+    background-image: url('./dolla-sign.png');
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+    font-size: 18px;
+    box-sizing:border-box;
+    width: 110px;
+    color: grey;
 }
 
 #donate-btn{
     background-color: #fde478;
     height: 45px;
-    width: 85px;
+    width: 105px;
     border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Signika', sans-serif;
+    border: none;
+    margin-left: 20px;
 }
 
 #secondary-cta button{
+    font-family: 'Signika', sans-serif;
     height: 45px;
-    width: 45%;
+    width: 35%;
     padding: 10px;
-    font-size: 18px;
+    font-size: 16px;
     color: grey;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px 0px 0px 30px;
+    background-color: #fbfbfb;
+
+}
+
+#secondary-cta button:hover{
+    font-family: 'Signika', sans-serif;
+    height: 45px;
+    width: 35%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    margin: 10px 0px 0px 40px;
+    background-color: #8787ff;
 }

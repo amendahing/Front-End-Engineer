@@ -10,21 +10,23 @@
 </head>
 <body>
     <div id="amount-needed">
-        <p>$500 still needed for this project</p>
-        <div id="slider"></div>
+        <p>$700 still needed for this project</p>
+        <div id="slider">
+            <p><span style="color: white; font-size: 14px; font-family: 'Lato'">$300 raised</span></p>
+        </div>
     </div>
 
 
 
     <div id="outer">
         <div id="info">
-            <p>Only 3 days left to fund this project</p>
+            <p><span style="color: #8787ff; font-weight: bold; font-size: 20px; font-family: 'Signika'">Only 3 days</span> left to fund this project.</p>
             <p>Join the 42 other donors who have already supported this project. Every dollar helps.</p>
         </div>
 
         <div id="donate-box">
             <form onsubmit="return false">
-                <input type="text" placeholder="$" id="money-input">
+                <input type="text" id="money-input">
                 <button id="donate-btn" onclick="submitDonation()">Give now</button>
             </form>
         </div>
